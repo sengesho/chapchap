@@ -14,21 +14,21 @@
             <div class="col-lg-12">
                 <div class="owl-menu-item owl-carousel">
 
-                    @foreach($foods as $item)
+                @foreach ($foods as $ac)    
                     <div class="item">
-                        <div style="background-image:url('{{ url("storage/".$item->foodimage) }}');" class='card'>
-                            <div class="price"><h6>{{$item->sale_price}}</h6></div>
+                        
+                            <div class="price"><h6>{{ $ac->sale_price }}</h6></div>
                             <div class='info'>
-                              <h1 class='title'>{{$item->foodname}}</h1>
-                              <p class='description'>{{$item->description}}</p>
+                              <h1 class='title'>{{ $ac->foodname }}</h1>
+                              <p class='description'>{{ $ac->description }}</p>
                               <div class="main-text-button">
                                   <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
                               </div>
                             </div>
                         </div>
                     </div>
-                    @endforeach
-
+                  
+                @endforeach
                 </div>
             </div>
         </div>

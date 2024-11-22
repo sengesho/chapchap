@@ -7,9 +7,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        
-        
-        @vite(['/resources/js/app.js'])
+        <link rel="stylesheet" href="{{ asset('assets/css/ab1.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/ab2.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/ab3.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/ab4.css') }}">
         
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
       
@@ -69,7 +70,7 @@
                     <div class="blog-masonry masonry-true">
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/1.jpg" alt="">
+                                <img src="assets/images/1.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Title one goes here</a></h4>
                                 </div>
@@ -85,7 +86,7 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/2.jpg" alt="">
+                                <img src="assets/images/2.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Second Image Title</a></h4>
                                 </div>
@@ -101,7 +102,7 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/3.jpg" alt="">
+                                <img src="assets/images/3.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Image Number Three</a></h4>
                                 </div>
@@ -117,7 +118,7 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/4.jpg" alt="">
+                                <img src="assets/images/4.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Aliquam sed magna risus</a></h4>
                                 </div>
@@ -133,7 +134,7 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/5.jpg" alt="">
+                                <img src="assets/images/5.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Lorem ipsum dolor sit</a></h4>
                                 </div>
@@ -149,7 +150,7 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/6.jpg" alt="">
+                                <img src="assets/images/6.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Praesent eget lectus mauris</a></h4>
                                 </div>
@@ -165,7 +166,7 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/7.jpg" alt="">
+                                <img src="assets/images/7.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Donec nec metus non</a></h4>
                                 </div>
@@ -181,7 +182,7 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/8.jpg" alt="">
+                                <img src="assets/images/8.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Vestibulum faucibus lacus</a></h4>
                                 </div>
@@ -197,7 +198,7 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/9.jpg" alt="">
+                                <img src="assets/images/9.jpg" alt="">
                                 <div class="title-over">
                                     <h4><a href="#">Pellentesque habitant morbi</a></h4>
                                 </div>
@@ -241,9 +242,10 @@
             </div>
         </footer>
 
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/min/plugins.min.js"></script>
-        <script src="js/min/main.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="assets/js/min/plugins.min.js"></script>
+        <script src="assets/js/min/main.min.js"></script>
+      
 
         <!-- Preloader -->
         <script type="text/javascript">

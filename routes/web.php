@@ -8,6 +8,7 @@ use App\Http\Controllers\admin;
 Route::get('index/', [homeController::class,"first"] )->name('index');
 Route::get('home/', [homeController::class,"index"] );
 Route::get('redirect/', [homeController::class,"redirect"] );
+Route::get('productlist/', [Admin::class,"productlist"] )->name('productlist');
 
 Route::get('/login', [CustomLoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [CustomLoginController::class, 'login']);

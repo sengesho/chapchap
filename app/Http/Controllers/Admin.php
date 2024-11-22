@@ -8,11 +8,18 @@ use App\Models\Food;
 
 class Admin extends Controller
 {
+
     public function userlist()
         {
             $users=user::all();
             return view("admin.userlist",compact("users"));
         }
+
+    public function productlist()
+        {
+            $foods=food::all();
+            return view("admin.productlist",compact("foods"));
+        }    
 
     public function admin()
         {
@@ -63,6 +70,8 @@ class Admin extends Controller
 
     return redirect()->route('admin')->with('success', 'Food item created successfully');
 }
+
+
 
   
 }
